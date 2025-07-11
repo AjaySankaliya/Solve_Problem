@@ -22,6 +22,10 @@ public class Consecutive {
                     maxCount = count;
                 }
             }
+            else
+            {
+                count=1;
+            }
         }
 
         System.out.println("Max consecutive count: " + maxCount);
