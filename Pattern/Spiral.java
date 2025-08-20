@@ -12,7 +12,7 @@ class Spiral {
 
         int num = 1;
 
-        while (top <= right && left <= right) {
+        while (top <= bottom && left <= right) {
             //left to right
             for (int i = left; i <= right; i++) {
                 arr[top][i] = num++;
@@ -46,3 +46,4 @@ class Spiral {
         }
     }
 }
+
